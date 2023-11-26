@@ -87,11 +87,11 @@ button:hover{
 }
 #downarrow1{
     position: absolute;
-    top: 50vh; left:22vw
+    top: 53vh; left:22vw
 }
 .second{
     position: absolute;
-    top: 49vh; left: 10vw;
+    top: 52vh; left: 10vw;
 }
 #downarrow2{
     position:relative;
@@ -111,9 +111,9 @@ button:hover{
 }
 #downarrow4{
     position:absolute;
-    top: 50vh; right: 22vw;
+    top: 52vh; right: 22vw;
 }
 .fifth{
     position: absolute;
-    top: 16vh; right: 20vh;
+    top: 18vh; right: 20vh;
 }
