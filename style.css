@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-craig-adderley-1563356.jpg&fm=jpg);
+    background-position: center;
+}
+
+h1{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+main{
+    display: block;  
+    margin: 50px auto;
+    height: 70vh;
+    width: 80vw;
+    background-image: url(https://img.freepik.com/premium-vector/abstract-watercolor-background_23-2149038177.jpg);
+    background-position: contain;
+    background-size: 100%;
+    background-blend-mode:darken;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+#indiv{
+    display: inline-block;
+    margin: 40px;
+    height: 25vh;
+    width: 20vw;
+    background-color: lightpink;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    animation-name: back;
+    animation-duration: 10s;
+}
+
+/* animation */
+@keyframes back{
+    0%{background-color: lightgreen;}
+    25%{background-color:lightskyblue;}
+    50%{background-color:lightsteelblue;}
+    100%{background-color:lightpink;}
+
+}
+
+
+h3{
+    margin: 10px;
+    font-size: 25px;
+    color: darkblue;
+    text-shadow: 2px 1px yellow;
+
+}
+h5{
+    color: red;
+    margin: 10px;
+    text-shadow: 2px 1px greenyellow;
+    font-size: 20px;
+    animation-name: text;
+    animation-duration: 10s;
+}
+/* animation  */
+@keyframes text{
+    0%{text-shadow:2px 1px darkgray;}
+    25%{color:darkmagenta}
+    50%{color:black}
+    100%{text-shadow:2px 1px yellow;}
+}
+button{
+    background-color: lightgray;
+    color: black;
+    font-size: 15px;
+    height: 4vh;
+    width: 8vw;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: darkturquoise;
+}
+#downarrow1{
+    position: absolute;
+    top: 50vh; left:22vw
+}
+.second{
+    position: absolute;
+    top: 49vh; left: 10vw;
+}
+#downarrow2{
+    position:relative;
+    top: 26vh;
+}
+.thrid{
+    position: relative;
+    top: 30vh;
+}
+#downarrow3{
+    position: relative;
+    top: 25vh;
+}
+.fourth{
+    position: relative;
+    top:-6vh;left: 55vw;
+}
+#downarrow4{
+    position:absolute;
+    top: 50vh; right: 22vw;
+}
+.fifth{
+    position: absolute;
+    top: 16vh; right: 20vh;
+}
